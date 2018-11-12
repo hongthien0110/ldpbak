@@ -67,6 +67,8 @@ $(document).ready(function () {
             return (false);
         }
 
+        console.log(this);
+
         // helios system send c3
         olmxSendContact(document.getElementById("jobs_native"));
 
