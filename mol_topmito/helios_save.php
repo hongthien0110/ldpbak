@@ -14,7 +14,6 @@ $api_get_tks_page = "http://helios.topicanative.asia/api/get-thankyou-page";
 if ($_POST["action"] == "visitor") {
     $api_data = $_POST["data"];
     $data_decoded = json_decode($api_data, true);
-    echo 'done';
 
     $api_url = $api_path . "tracking/visitor";
 
@@ -23,13 +22,9 @@ if ($_POST["action"] == "visitor") {
         $api_data = getUtmInfo($data_decoded, $api_get_ads);
     }
 
-    echo '-done1+'.$api_url;
     saveLog('visitor data : '.$api_data, 'logs.txt');
 
-    echo '-done11';
-
     $curl = curl_init($api_url);
-    echo '-done12';
     curl_setopt($curl, CURLOPT_POST, true);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl, CURLOPT_HTTPHEADER, array(
@@ -37,13 +32,11 @@ if ($_POST["action"] == "visitor") {
     ));
     curl_setopt($curl, CURLOPT_POSTFIELDS, $api_data);
 
-    echo '-done2';
     // Send the request
     $response = curl_exec($curl);
     $info = curl_getinfo($curl);
     curl_close($curl);
 
-    echo '-done3';
     $data = array();
     $data["code"] = $info['http_code'];
     // Check for errors
