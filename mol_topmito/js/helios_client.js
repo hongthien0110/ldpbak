@@ -272,6 +272,7 @@ function olmxSendVisitor() {
             url: save_contact_url,
             data: {action: "visitor", data: JSON.stringify(session_data)}
         }).success(function (response) {
+            console.log("success ", response);
             var result = response;
             if (result.code === 200) {
                 if (result.data.visitor_code !== undefined && result.data.visitor_code.length > 0) {
@@ -281,6 +282,8 @@ function olmxSendVisitor() {
                     olmxSetCookie("olmx_session_code", result.data.session_code);
                 }
             }
+        }).error( function(response) {
+            console.log("err ", response);
         });
 
     }, 200);
@@ -400,7 +403,7 @@ function olmxSendContact(form) {
             }
         }).error( function(response) {
             saveLog(window.location.hostname + " AJAX error...", "contact_log.txt");
-            console.log("Error !");
+            console.log("Error !", response);
             // location.href = "http://bestenglish.topicanative.co.th/helios";
         });
     }
