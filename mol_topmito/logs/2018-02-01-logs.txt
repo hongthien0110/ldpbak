@@ -1,0 +1,20 @@
+[10.80.10.3 2018-02-01 22:09:16] Array
+(
+    [name] => Michaelkah
+    [phone] => 82359373289
+    [email] => jah.o.c.h.u.pisatpo.rus.sk.i.@gmail.com
+    [http_referer] => 
+    [domain] => http://topicanative.asia/
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-01 22:09:18] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia//thank-you.php
+)
+

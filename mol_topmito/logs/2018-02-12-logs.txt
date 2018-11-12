@@ -1,0 +1,183 @@
+[10.80.10.3 2018-02-12 13:32:21] Array
+(
+    [name] => Charlesbusia
+    [phone] => 85457125743
+    [email] => kibbehearn@snailmail.bid 
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-12 13:32:22] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-12 14:31:09] Array
+(
+    [name] => 5a8142bc113c2
+    [phone] => 
+    [email] => alimomin007@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-12 14:34:13] Array
+(
+    [name] => 5a8143739556b
+    [phone] => 
+    [email] => mlgracing@comcast.net
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-12 15:29:47] Array
+(
+    [name] => 5a8150845c623
+    [phone] => 
+    [email] => lang.fredrickson@sbcglobal.net
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-12 17:17:32] Array
+(
+    [name] => 5a8169ba869f7
+    [phone] => 
+    [email] => automation.sense@gmail.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-12 18:08:33] Array
+(
+    [name] => 5a8175b13b0a4
+    [phone] => 
+    [email] => apurvam@gmail.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-12 18:17:28] Array
+(
+    [name] => Timothydum
+    [phone] => 82497137377
+    [email] => drappeak@gmail.com
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-12 18:17:30] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-12 18:19:12] Array
+(
+    [name] => 5a8178310029d
+    [phone] => 
+    [email] => danarena49@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-12 22:58:14] Array
+(
+    [name] => 5a81b9937c256
+    [phone] => 
+    [email] => glewis@execulink.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-12 23:00:35] Array
+(
+    [name] => 5a81ba2641c24
+    [phone] => 
+    [email] => leysa721@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-12 23:06:49] Array
+(
+    [name] => ManuelDyese
+    [phone] => 87357318793
+    [email] => sqim66573@catch@first.baburn.com
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-12 23:06:50] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-12 23:27:25] Array
+(
+    [name] => 5a81c06f73edc
+    [phone] => 
+    [email] => jbg@plurium.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-12 23:55:45] Array
+(
+    [name] => 5a81c71320cad
+    [phone] => 
+    [email] => brianaubin@yahoo.ca
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+

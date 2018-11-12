@@ -1,0 +1,98 @@
+
+
+
+/*...........................placehoder*/
+.content{
+    padding-left: 0px!important;
+
+}
+
+.content img{
+    width: 90%;
+    margin-top: 20px;
+}
+/*.content h2{*/
+    /*color: #DBAC69;*/
+/*}*/
+.content p{
+    width: 95%;
+    font-size: 18px;
+  
+}
+
+
+.pro img{
+    width: 275px;
+}
+#form2{
+    padding-left: 15px;
+}
+
+/*#form2 input{*/
+/*    border: 1px solid #DBAC69;*/
+/*    color: #DBAC69;*/
+/*}*/
+
+.red-border{
+    border-top: solid #DBAC69;
+    margin: 0 50px;
+    padding: 0 10px;
+}
+.sb{
+    margin-top: 50px;
+}
+.sb img{
+    margin-top: 20px;
+}
+.sb h3{
+    color: #DBAC69;
+}
+.sb p{
+    font-size: 20px;
+  
+}
+.stu{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.stu p{
+    background-color: #DBAC69;
+    border-radius: 20px;
+    color: #fff;
+    padding: 20px 100px 20px 100px;
+}
+
+.payment{
+    background-color: #f4f4f4;
+    border: 1px solid #DBAC69;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 20px;
+}
+.payment > div:first-child{
+    background-color: #DBAC69;
+    padding: 5px 25px 5px 25px;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+
+}
+.payment > div:last-child{
+    padding:25px;
+ 
+}
+.payment > div:last-child img{
+    width: 50px;
+    height: 50px;
+
+}
+.short{
+    /*width: 110px!important;*/
+    /*border-radius: 4px;*/
+}
+
+.tb-lm td{
+    border: 1px solid #DBAC69;
+    width: 20%;
+    text-align: center;
+    padding: 20px 10px;
+}
+

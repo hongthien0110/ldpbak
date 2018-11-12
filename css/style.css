@@ -1,0 +1,411 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+@font-face {
+    font-family: ufonts;
+    src: url("../fonts/ufonts.com_gotham-bold.ttf");
+}
+
+@font-face {
+    font-family: GothamHTF-Book;
+    src: url("../fonts/GothamHTF-Book.ttf");
+
+}
+@font-face {
+    font-family: THSarabunNewBold;
+    src: url("../fonts/THSarabunNewBold.ttf");
+
+}
+#wrapper{
+     min-width: 1170px;
+}
+.container{
+    min-width: 1170px;
+}
+body{
+    font-family: GothamHTF-Book !important;
+}
+
+.border-t-l-r{
+    border-left: 1px solid #DBAC69;
+    border-top: 1px solid #DBAC69;
+    border-right: 1px solid #DBAC69;
+}
+.radius-10{
+    border-radius: 10px;
+}
+.link{
+    float: right;
+
+}
+.col-md-2-10{
+    width: 20%;
+}
+.full-width{
+    width: 100%;
+}
+.width-20{
+    width: 20px;
+}
+.bg-red{
+    background: #DBAC69;
+    color: #fff;
+}
+.bg-black{
+    background: #000;
+    color: #fff;
+}
+.bg-transparent{
+    background: transparent;
+}
+.color-red{
+    color: #DBAC69;
+    text-decoration: none;
+}
+/*.color-red:hover{*/
+    /*color: #DBAC69;*/
+    /*text-decoration: none;*/
+/*}*/
+.radius-0{
+    border-radius: 0;
+}
+.radius-35{
+    border-radius: 35px;
+}
+.font-size18{
+    font-size: 18px;
+}
+.size-super-lg {
+    font-size: 50px;
+}
+.size-lg{
+    font-size: 35px;
+}
+.size-supper-normal{
+    font-size: 25px;
+}
+.size-normal{
+    font-size: 18px;
+}
+.col-xs-2-10{
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.border-bottom{
+    border-bottom: 1px solid #DBAC69;
+}
+.border{
+    border: 1px solid #ccc;
+}
+.border-while{
+    border-top: 1px solid white;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-2{
+    line-height: 2em;
+}
+.line-1-5{
+    line-height: 1.5em;
+}
+.border-red{
+    border: 1px solid #DBAC69;
+}
+.margin-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.margin-30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.margin-45{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.mr-top-15{
+    margin-top: 15px;
+}
+.mr-top-20{
+    margin-top: 20px;
+}
+.mr-top-30{
+    margin-top: 30px;
+}
+.mr-top-45{
+    margin-top: 45px;
+}
+.mr-top-80{
+    margin-top: 80px;
+}
+.mr-bottom-45{
+    margin-bottom: 45px;
+}
+.mr-bottom-20{
+    margin-bottom: 20px;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.mr-20{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.mr-30{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.mr-45{
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.mr-0{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul li{
+    list-style: none;
+}
+
+#step-nav div span{
+    padding: 5px 12px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+.color-white{
+    color: #fff;
+}
+.btn-default{
+    color: #DBAC69;
+    font-size: 25px;
+}
+.btn{
+    border-radius: 0px;
+    padding: 8px 20px;
+}
+.btn-form{
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+.btn-default-form{
+    color: black;
+    background-color: #DBAC69;
+    border-color: #ccc;
+    font-size: 30px;
+}
+.btn-default-form:hover{
+    color: white;
+}
+.form-control{
+    height: 45px;
+    border-radius: 0;
+    opacity: 0.8;
+    font-size: 12px;
+    font-weight: bold;
+}
+#slide{
+    position: relative;
+}
+#form{
+    position: absolute;
+    top: 70px;
+    right: 30px;
+}
+
+.clear{
+    clear: both;
+}
+
+/*---------------------------------------*/
+#header{
+   position: fixed;
+    z-index: 999;
+    background-color: white;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+}
+/*ul{
+    width: 712px;
+}*/
+#header ul li{
+    float:left;
+    text-align: right;
+    padding-top: 28px;
+}
+
+#header ul a{
+    text-decoration:none;
+    color:black;
+    display:block;
+    padding: 10px 17px 0px 17px;
+    color: #333333;
+}
+
+#header ul a:hover{
+    font-weight: bold;
+    color: #DBAC69 ;
+}
+
+.height{
+    height: 540px;
+}
+.short{
+    /*width: 110px!important;*/
+}
+/*...........................placehoder*/
+input::-webkit-input-placeholder {
+/*    color: #DBAC69 !important;*/
+    color: black !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+/*    color: #DBAC69 !important;*/
+    color: black !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+/*    color: #DBAC69 !important;*/
+    color: black !important;
+}
+
+input:-ms-input-placeholder {  
+/*    color: #DBAC69 !important;*/
+    color: black !important;
+}
+
+input{
+    font-style: italic;
+}
+.visible {
+    height: 118px;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 1px 10px #333333;
+    -moz-box-shadow: 0px 1px 10px #333333;
+    -webkit-box-shadow: 0px 1px 10px #333333;
+    -o-box-shadow: 0px 1px 10px #333333;
+    -ms-box-shadow: 0px 1px 10px #333333;
+
+}
+#logo{
+    
+    max-width:120%;
+}
+#logo2{
+    max-width: 120%;
+}
+
+/*home content*/
+.home-content > div{
+    padding: 50px;
+}
+
+/*truyen-thong*/
+.slide-logo {
+ 
+    height: 130px;
+    display: block;
+    margin-bottom: 0;
+    padding: 10px 0 15px 0;
+   
+}
+.logo-tt{
+
+    width: 22% ;
+    margin: 0 10px;
+    padding: 10px 20px;
+    display: inline-block;
+  /*  border: 1px solid #DBAC69;*/
+}
+
+/*slide truyen thong*/
+#img-grp-wrap {
+    position: relative;
+
+}
+
+.img-wrap {
+    position: relative;
+    border: 1px solid #CCC;
+
+}
+
+.img-wrap > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -moz-box-shadow: 1px 1px 4px #CCC;
+    padding: 10px;
+}
+
+.next, .prev {
+    position: absolute;
+    cursor: pointer;
+    top: 70px;
+}
+
+.next {
+    right: -40px;
+}
+
+.prev {
+    left: -40px;
+}
+
+.br-red{
+    border-top: 4px solid #DBAC69;
+    padding-top: 33px!important;
+    margin-top: -28px;
+}
+.br-white{
+    border-top: 4px solid #fff;
+    padding-top: 15px!important;
+    margin-top: -10px;
+}
+.news-logo > div{
+    cursor: pointer;
+}
+.news-detail{
+    padding: 0 30px;
+   margin-top: -15px;
+}
+.news-detail > div > div{
+    border: 2px solid #DBAC69;
+    border-radius: 10px;
+}
+.news-detail > div > div > p{
+    margin: 20px;
+}
+.hidden{
+    display: none;
+}

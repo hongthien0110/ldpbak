@@ -1,0 +1,363 @@
+[10.80.10.3 2018-02-13 00:04:21] Array
+(
+    [name] => 5a81c916ca1f4
+    [phone] => 
+    [email] => leysa721@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-13 00:23:15] Array
+(
+    [name] => 5a81cd85a272d
+    [phone] => 
+    [email] => tarheelunc53@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-13 00:35:29] Array
+(
+    [name] => 5a81d06260579
+    [phone] => 
+    [email] => leysa721@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-13 01:50:27] Array
+(
+    [name] => 5a81e1f67dc01
+    [phone] => 
+    [email] => norimac118@gmail.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-13 02:31:45] Array
+(
+    [name] => 5a81eba2e14e8
+    [phone] => 
+    [email] => accounting@theropshop.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-13 03:29:12] Array
+(
+    [name] => 5a81f916826a1
+    [phone] => 
+    [email] => viviann095@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-13 03:42:27] Array
+(
+    [name] => 5a81fc30bd33c
+    [phone] => 
+    [email] => stephk1070@gmail.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-13 03:45:08] Array
+(
+    [name] => HallwayBussy
+    [phone] => 85911169772
+    [email] => othkotenland1967@seocdvig.ru
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-13 03:45:19] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-13 05:27:37] Array
+(
+    [name] => 5a8214dcad62a
+    [phone] => 
+    [email] => sdonohoe@gmail.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-13 05:32:00] Array
+(
+    [name] => KennethHaivY
+    [phone] => 89694968112
+    [email] => tbrown@myfreemail.bid 
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-13 05:32:01] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-13 05:41:03] Array
+(
+    [name] => AaronAppak
+    [phone] => 81882579428
+    [email] => apeoples1@securesmtp.bid 
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-13 05:41:04] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-13 06:11:26] Array
+(
+    [name] => 5a821f1c2d59e
+    [phone] => 
+    [email] => reginaalbritton@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-13 06:57:10] Array
+(
+    [name] => Bennystice
+    [phone] => 88976951746
+    [email] => cgggreene@freemail.trade 
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-13 06:57:11] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-13 07:52:12] Array
+(
+    [name] => AaronAppak
+    [phone] => 81299249919
+    [email] => rondi67@freeemails.racing 
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-13 07:52:14] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-13 08:01:16] Array
+(
+    [name] => AlfredHoawn
+    [phone] => 86382211115
+    [email] => steve50cowboy@mypop3.bid 
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-13 08:01:17] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-13 09:35:34] Array
+(
+    [name] => Robertcloum
+    [phone] => 85843599386
+    [email] => g.str7719720811@gmail.com
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-13 09:35:35] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-13 10:40:29] Array
+(
+    [name] => AaronAppak
+    [phone] => 88819888971
+    [email] => drema@wwwemail.racing 
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-13 10:40:31] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-13 13:11:38] Array
+(
+    [name] => 5a8281989167b
+    [phone] => 
+    [email] => treybball34@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-13 13:16:40] Array
+(
+    [name] => AaronAppak
+    [phone] => 82734777558
+    [email] => marksnakajima@msmail.bid 
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-13 13:16:41] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-13 13:26:18] Array
+(
+    [name] => 5a82850863577
+    [phone] => 
+    [email] => gatorball2@cox.net
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-13 15:02:18] Array
+(
+    [name] => Floydfaurl
+    [phone] => 83471296381
+    [email] => klxy42479@first.baburn.com
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-13 15:02:19] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-13 15:31:24] Array
+(
+    [name] => Charlesbusia
+    [phone] => 86678569841
+    [email] => shancrook@blinkweb.trade 
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-13 15:31:25] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+

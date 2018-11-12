@@ -1,0 +1,105 @@
+[10.80.10.3 2018-02-23 00:38:13] Array
+(
+    [name] => 5a8f0008e9ee5
+    [phone] => 
+    [email] => acj5e@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-23 04:23:18] Array
+(
+    [name] => Timothyglasy
+    [phone] => 86387926667
+    [email] => inbox183@glmux.com
+    [line_id] => 
+    [http_referer] => 
+    [domain] => http://topicanative.asia/Register.php
+    [id_camp_landingpage] => 4173
+    [preview] => -100
+    [code_chanel] => topicanative_asia_001
+    [submit] => 
+)
+
+[10.80.10.3 2018-02-23 04:23:19] stdClass Object
+(
+    [status] => 
+    [msg] => Bạn đã thực hiện test landingpage thành công!
+    [redirect] => http://topicanative.asia/Register.php/thank-you.php
+)
+
+[10.80.10.3 2018-02-23 05:03:10] Array
+(
+    [name] => 5a8f3e20ad5fb
+    [phone] => 
+    [email] => kwetherholt8277@wowway.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-23 06:06:39] Array
+(
+    [name] => 5a8f4d0481d7a
+    [phone] => 
+    [email] => rigman42@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-23 08:45:41] Array
+(
+    [name] => 5a8f724a64185
+    [phone] => 
+    [email] => tlag65@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-23 09:05:43] Array
+(
+    [name] => 5a8f76f9abc94
+    [phone] => 
+    [email] => katiet0603@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-23 09:23:30] Array
+(
+    [name] => 5a8f7b1eec8a1
+    [phone] => 
+    [email] => dken101560@yahoo.com
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
+[10.80.10.3 2018-02-23 10:00:59] Array
+(
+    [name] => 5a8f83ea28eca
+    [phone] => 
+    [email] => debbie.sammut@homelifestyles.org
+    [http_referer] => 
+    [domain] => 
+    [id_camp_landingpage] => 
+    [preview] => 
+    [code_chanel] => 
+)
+
