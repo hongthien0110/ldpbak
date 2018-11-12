@@ -80,7 +80,6 @@ if ($_POST["action"] == "contact") {
     ));
     curl_setopt($curl, CURLOPT_POSTFIELDS, $api_data);
     // Send the request
-    echo $api_url;
     $response = curl_exec($curl);
     // saveLog('response  : '.$response, 'logs.txt');
 
