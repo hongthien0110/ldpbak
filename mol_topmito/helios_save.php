@@ -14,6 +14,7 @@ $api_get_tks_page = "http://helios.topicanative.asia/api/get-thankyou-page";
 if ($_POST["action"] == "visitor") {
     $api_data = $_POST["data"];
     $data_decoded = json_decode($api_data, true);
+    echo 'done';
 
     $api_url = $api_path . "tracking/visitor";
 
