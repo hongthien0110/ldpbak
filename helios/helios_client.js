@@ -21,7 +21,6 @@ $(document).ready(function () {
         var email = $(this).find('input[name=email]').val() ? $(this).find('input[name=email]').val() : $('#email').val();
         var phone = $(this).find('input[name=phone]').val() ? $(this).find('input[name=phone]').val() : $('#phone').val();
         var age = $(this).find('select[name=age]').val() ? $(this).find('select[name=age]').val() : $('#age').val();
-        var dodaisdt = phone.length;
         if (fullname == "") {
             alert("จำเป็นต้องใส่ชื่อ");
             $('#fullname').focus();
@@ -34,6 +33,7 @@ $(document).ready(function () {
             $(this).find('.btn-submit').removeAttr('disabled');
             return (false);
         }
+        var dodaisdt = phone.length;
         if (d = phone.match(/^0/i)) {
             if (dodaisdt != 10) {
                 alert("เหมายเลขของคุณไม่ถูกต้อง หมายเลขของคุณต้องเริ่มต้นด้วยหมายเลย 0");
