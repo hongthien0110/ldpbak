@@ -49,7 +49,7 @@
             <!--form.......................-->
 
             <div id="form2">
-                 <form class="e_submit e_form_submit form-horizontal" method="POST" action="./mol_topmito/helios_save.php">
+                 <form class="e_submit e_form_submit form-horizontal" method="POST" action="">
                     <div class="form-group">
                         <div class="full-width ">
                             <input type="text" class="form-control" name="name"  placeholder="Name">

@@ -5,7 +5,7 @@
             <div class="slide-image"><img src="img/Slide2.jpg" alt="" class="height"  style="width:100% !impotant;margin-left: -50"/></div>
             <div class="slide-image"><img src="img/Slide3.jpg" alt="" class="height"  style="width:100% !impotant;margin-left: -20"/></div>
             <div id="form" class="col-xs-4" style="background: white; position: relative; top: 0; float: right; right:0 !important">
-                <form class="e_submit e_form_submit form-horizontal" method="POST" action="./mol_topmito/helios_save.php" style="padding: 25px;">
+                <form class="e_submit e_form_submit form-horizontal" method="POST" action="" style="padding: 25px;">
                     <div class="text-center mr-top-15" style="color: black">
                         <p style="font-weight: bold; font-size: 35px; margin-bottom: 0;">ลงทะเบียนรับสิทธิ์</p>
                         <p style="font-size: 20px; margin-top: 0;">ทดสอบวัดระดับภาษาอังกฤษ ฟรี</p>
