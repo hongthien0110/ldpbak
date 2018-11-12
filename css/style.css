@@ -57,7 +57,7 @@ body{
 }
 .bg-black{
     background: #000;
-    color: #fff;
+    color: #DBAC69;
 }
 .bg-transparent{
     background: transparent;
@@ -268,12 +268,11 @@ ul li{
     color:black;
     display:block;
     padding: 10px 17px 0px 17px;
-    color: #333333;
 }
 
 #header ul a:hover{
+
     font-weight: bold;
-    color: #DBAC69 ;
 }
 
 .height{

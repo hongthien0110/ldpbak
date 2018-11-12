@@ -82,9 +82,8 @@ $(document).ready(function () {
             $(".hvr-overline-from-center").removeClass("hvr-overline-from-center-2");
             logo.removeClass("hidden");
             logo2.addClass("hidden");
-            color_a.css({"color": "#333333"});
+            color_a.css({"color": "#000000"});
             header.css({"background": "none"});
-            header.css({"background": "while"});
             logo.css({"marginTop": "0px"});
             menu_li.css({"paddingTop": "28px"});
             header.animate({height: "116px"}, '500');

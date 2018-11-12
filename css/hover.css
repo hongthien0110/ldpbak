@@ -2565,7 +2565,7 @@
   left: 50%;
   right: 50%;
   top: 0;
-  background: #DBAC69;
+  background: #DBAC69 !important;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;

@@ -78,7 +78,7 @@
 
                                     </p>
 
-                        <div class="text-right"><a href="./Register.php"><button type="button" class="btn btn-default btn-md" style="font-size: 17px;margin-top: 7px;padding: 8px 25px;">APPLY NOW</button></a></div>
+                        <div class="text-right"><button type="button" id="apply_now" class="btn btn-default btn-md" style="font-size: 20px;font-weight:bold;margin-top: 7px;padding: 8px 25px;">APPLY NOW</button></div>
 
                     </div>
 
@@ -116,3 +116,12 @@
 
 </div>
 
+<script>
+    $(document).ready(function (){
+        $("button#apply_now").click(function (){
+            $('html, body').animate({
+                scrollTop: $("form.e_submit").offset().top - 200
+            }, 100);
+        });
+    });
+</script>

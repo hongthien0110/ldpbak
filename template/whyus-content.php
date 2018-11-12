@@ -44,9 +44,9 @@
             </div>
         </div>
         <div class="col-xs-3 pro">
-            <p  id="whyus_t8" style="font-size:20px; margin-bottom: 20px;margin-top: 30px;">Is our program suitable<br/>
-            for you? <a href="http://info.topicanative.asia/"><span style="text-decoration: underline;color: #2f95ab; font-size:23px; font-weight:bold">Find out now!</span></a>
-            </p>
+<!--            <p  id="whyus_t8" style="font-size:20px; margin-bottom: 20px;margin-top: 30px;">Is our program suitable<br/>-->
+<!--            for you? <a href="http://info.topicanative.asia/"><span style="text-decoration: underline;color: #2f95ab; font-size:23px; font-weight:bold">Find out now!</span></a>-->
+<!--            </p>-->
             <div class="text-center">
                  <a href="./Package.php"><img src="img/Banner_n01.jpg" style="width:106%;"></a>
             </div>
