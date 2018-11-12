@@ -25,13 +25,13 @@ $(document).ready(function () {
             alert("จำเป็นต้องใส่ชื่อ");
             $('#fullname').focus();
             $(this).find('.btn-submit').removeAttr('disabled');
-            return (false);
+            return false;
         }
         if (phone == "") {
             alert("จำเป็นต้องใส่หมายเลขโทรศัพท์");
             $('#phone').focus();
             $(this).find('.btn-submit').removeAttr('disabled');
-            return (false);
+            return false;
         }
         var dodaisdt = phone.length;
         if (d = phone.match(/^0/i)) {
@@ -39,7 +39,7 @@ $(document).ready(function () {
                 alert("เหมายเลขของคุณไม่ถูกต้อง หมายเลขของคุณต้องเริ่มต้นด้วยหมายเลย 0");
                 $('#phone').focus();
                 $(this).find('.btn-submit').removeAttr('disabled');
-                return (false);
+                return false;
             }
         } else {
             alert("หมายเลขของคุณไม่ถูกต้อง หมายเลขของคุณต้องเริ่มต้นด้วยหมายเลย 0");
@@ -51,7 +51,7 @@ $(document).ready(function () {
             alert("กรุณากรอกอีเมล์ของคุณ");
             $('#email').focus();
             $(this).find('.btn-submit').removeAttr('disabled');
-            return (false);
+            return false;
         }
         var aCong = email.indexOf("@");
         var dauCham = email.lastIndexOf(".");
@@ -64,7 +64,7 @@ $(document).ready(function () {
         if (age == "0") {
             alert("กรุณาใส่วันเกิด")
             $(this).find('.btn-submit').removeAttr('disabled');
-            return (false);
+            return false;
         }
 
         // helios system send c3
