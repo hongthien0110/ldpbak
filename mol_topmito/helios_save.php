@@ -23,10 +23,12 @@ if ($_POST["action"] == "visitor") {
         $api_data = getUtmInfo($data_decoded, $api_get_ads);
     }
 
-    echo 'done1';
+    echo '-done1';
     saveLog('visitor data : '.$api_data, 'logs.txt');
 
+    echo '-done11';
     $curl = curl_init($api_url);
+    echo '-done12';
     curl_setopt($curl, CURLOPT_POST, true);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl, CURLOPT_HTTPHEADER, array(
@@ -34,13 +36,13 @@ if ($_POST["action"] == "visitor") {
     ));
     curl_setopt($curl, CURLOPT_POSTFIELDS, $api_data);
 
-    echo 'done2';
+    echo '-done2';
     // Send the request
     $response = curl_exec($curl);
     $info = curl_getinfo($curl);
     curl_close($curl);
 
-    echo 'done3';
+    echo '-done3';
     $data = array();
     $data["code"] = $info['http_code'];
     // Check for errors
