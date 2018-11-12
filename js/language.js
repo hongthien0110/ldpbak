@@ -111,6 +111,6 @@ function setTextRegister() {
     $('#register_t10').text(language.register_t10);
 }
 
-// $(document).ready(function () {
-//     getLanguage();
-// });
+$(document).ready(function () {
+    getLanguage();
+});
