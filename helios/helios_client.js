@@ -19,8 +19,6 @@ $(document).ready(function () {
         $(this).find('.btn-submit').attr('disabled', 'disabled');
         var fullname = $(this).find('input[name=name]').val() ? $(this).find('input[name=name]').val() : $('#fullname').val();
         var email = $(this).find('input[name=email]').val() ? $(this).find('input[name=email]').val() : $('#email').val();
-        var aCong = email.indexOf("@");
-        var dauCham = email.lastIndexOf(".");
         var phone = $(this).find('input[name=phone]').val() ? $(this).find('input[name=phone]').val() : $('#phone').val();
         var age = $(this).find('select[name=age]').val() ? $(this).find('select[name=age]').val() : $('#age').val();
         var dodaisdt = phone.length;
@@ -55,6 +53,8 @@ $(document).ready(function () {
             $(this).find('.btn-submit').removeAttr('disabled');
             return (false);
         }
+        var aCong = email.indexOf("@");
+        var dauCham = email.lastIndexOf(".");
         if ((aCong < 1) || (dauCham < aCong + 2) || (dauCham + 2 > email.length)) {
             alert("อีเมล์ อย่างเช่น :email@example.com");
             $('#email').focus();
@@ -67,10 +67,8 @@ $(document).ready(function () {
             return (false);
         }
 
-        console.log(this);
-
         // helios system send c3
-        olmxSendContact(document.getElementById("jobs_native"));
+        olmxSendContact(this);
 
     });
 
