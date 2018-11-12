@@ -272,7 +272,7 @@ function olmxSendVisitor() {
             url: save_contact_url,
             data: {action: "visitor", data: JSON.stringify(session_data)}
         }).success(function (response) {
-            console.log("success ");
+            // console.log("success ");
             var result = response;
             if (result.code === 200) {
                 if (result.data.visitor_code !== undefined && result.data.visitor_code.length > 0) {
@@ -283,7 +283,7 @@ function olmxSendVisitor() {
                 }
             }
         }).error( function(response) {
-            console.log("err ", response);
+            // console.log("err ", response);
         });
 
     }, 200);
@@ -395,16 +395,16 @@ function olmxSendContact(form) {
                 saveLog(window.location.hostname + " AJAX failed ... "
                     + JSON.stringify(ajax_data) + " "
                     + JSON.stringify(response), "contact_log.txt");
-                console.log("Failed !");
-                // location.href = "http://bestenglish.topicanative.co.th/helios";
+                // console.log("Failed !");
+                location.href = "http://bestenglish.topicanative.co.th/helios";
             } else {
-                console.log("Thanks !");
-                // location.href = response.url;
+                // console.log("Thanks !");
+                location.href = response.url;
             }
         }).error( function(response) {
             saveLog(window.location.hostname + " AJAX error...", "contact_log.txt");
-            console.log("Error !", response);
-            // location.href = "http://bestenglish.topicanative.co.th/helios";
+            // console.log("Error !", response);
+            location.href = "http://bestenglish.topicanative.co.th/helios";
         });
     }
 }
