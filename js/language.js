@@ -9,7 +9,7 @@ function getLanguage() {
     (localStorage.getItem('language') == null) ? setLanguage('eng'): false;
     var urlCurrent = window.location.href.toString().toLowerCase();
     $.ajax({
-        url: '../topicanative/language/' + localStorage.getItem('language') + '.json',
+        url: './language/' + localStorage.getItem('language') + '.json',
         dataType: 'json',
         async: false,
         dataType: 'json',
