@@ -23,10 +23,11 @@ if ($_POST["action"] == "visitor") {
         $api_data = getUtmInfo($data_decoded, $api_get_ads);
     }
 
-    echo '-done1';
+    echo '-done1+'.$api_url;
     saveLog('visitor data : '.$api_data, 'logs.txt');
 
     echo '-done11';
+
     $curl = curl_init($api_url);
     echo '-done12';
     curl_setopt($curl, CURLOPT_POST, true);
