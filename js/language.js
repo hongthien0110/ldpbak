@@ -14,12 +14,11 @@ function getLanguage() {
         async: false,
         dataType: 'json',
         success: function (lang) {
-            language = lang
+            language = lang;
             console.log(language);
             console.log('url:' + urlCurrent);
             console.log('home'.includes(urlCurrent));
             if (urlCurrent.includes('home')) {
-                ('home');
                 setTextHome();
             } else if (urlCurrent.includes('whyus')) {
                 setTextWhyUs();
