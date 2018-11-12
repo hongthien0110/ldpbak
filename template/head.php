@@ -21,7 +21,7 @@
 <script src="./mol_topmito/js/jquery.form.js" type="text/javascript"></script>
 <script src="./mol_topmito/js/jquery.bpopup.min.js" type="text/javascript"></script>
 <!--<script src="./mol_topmito/js/save_contact.js" type="text/javascript"></script>-->
-<script src="./mol_topmito/js/helios_client.js" type="text/javascript"></script>
+<script src="./helios/helios_client.js" type="text/javascript"></script>
 <script src="js/header.js" type="text/javascript"></script>
 <script src="js/news.js" type="text/javascript"></script>
 
