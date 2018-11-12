@@ -272,7 +272,7 @@ function olmxSendVisitor() {
             url: save_contact_url,
             data: {action: "visitor", data: JSON.stringify(session_data)}
         }).success(function (response) {
-            console.log("success ", response);
+            console.log("success ");
             var result = response;
             if (result.code === 200) {
                 if (result.data.visitor_code !== undefined && result.data.visitor_code.length > 0) {

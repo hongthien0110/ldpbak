@@ -17,7 +17,7 @@
                     </div>
                     <div class="form-group">
                         <div class="full-width mr-top-15" style="border: 1px solid #fff">
-                            <input type="text" class="form-control" name="phone" onkeyup="return check_sdt(this)" placeholder="Phone">
+                            <input type="text" class="form-control" name="phone" placeholder="Phone">
                         </div>
                     </div>
                     <div class="form-group">

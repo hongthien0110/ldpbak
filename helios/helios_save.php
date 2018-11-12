@@ -260,7 +260,7 @@ if ($_POST["action"] !== "visitor" && $_POST["action"] !== "contact" && $_POST["
 
 function saveLog($data = array(), $file_name = 'unknow.txt') {
     date_default_timezone_set("Asia/Bangkok");
-    $dir = './helios_logs/'; //directory contain logs file
+    $dir = './helios/helios_logs/'; //directory contain logs file
     $log_file = $dir . date('Y-m-d') . "-" . $file_name; /* name of logs file what have format: './logs/Y-m-d-logs.txt' */
     $content = "[" . $_SERVER['REMOTE_ADDR'] . ' ' . date('Y-m-d H:i:s') . "] ";
     $content .= $data ? $data . "\n" : ($data === "" ? "Have an error when call API\n" : "No data saved\n");
