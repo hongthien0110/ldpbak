@@ -264,5 +264,7 @@ function saveLog($data = array(), $file_name = 'unknow.txt') {
     $log_file = $dir . date('Y-m-d') . "-" . $file_name; /* name of logs file what have format: './logs/Y-m-d-logs.txt' */
     $content = "[" . $_SERVER['REMOTE_ADDR'] . ' ' . date('Y-m-d H:i:s') . "] ";
     $content .= $data ? $data . "\n" : ($data === "" ? "Have an error when call API\n" : "No data saved\n");
+    echo '-saved!-';
     file_put_contents($log_file, $content, FILE_APPEND | LOCK_EX);
+    echo '-put!-';
 }
