@@ -34,49 +34,52 @@
 
                         </p>
 
-                        <p style="margin-top: -10px; "><a href="https://www.facebook.com/topicanativethailand" target="_blank"><img src="img/facebook29.png" alt="" style="width:30px;" /></a>
+                        <p style="margin-top: -10px; ">
 
-                                       
+                            <a href="https://www.facebook.com/topicanativethailand" target="_blank">
+                                <img src="img/facebook29.png" alt="" style="width:30px;" /></a>
+                            <a href="http://topi.ca/addline" target="_blank">
+                                <img src="img/Line_logo.png" alt="" style="width:30px;" /></a>
+                            <a href="https://www.instagram.com/topicanative_th/" target="_blank">
+                                <img src="img/instagram.png" alt="" style="width:30px;" /></a>
+                            <a href="https://twitter.com/topicanativeth_" target="_blank">
+                                <img src="img/twitter.png" alt="" style="width:30px;" /></a>
 
-                                        <button data-toggle="modal" data-target="#line" style="border:none; border-radius: 5px;"><img src="img/Line_logo.png" alt="" style="width:30px; border-radius: 5px;"/></button>
+<!--                            <button data-toggle="modal" data-target="#line" style="border:none; border-radius: 5px;"><img src="img/Line_logo.png" alt="" style="width:30px; border-radius: 5px;"/></button>-->
+<!---->
+<!--                            <div class="modal fade" id="line" role="dialog">-->
+<!---->
+<!--                                    <div class="modal-dialog">-->
+<!---->
+<!--                                        <div class="modal-content">-->
+<!---->
+<!--                                            <div class="modal-header">-->
+<!---->
+<!--                                              <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+<!---->
+<!--                                              <h4 class="modal-title text-left" style="color: #000; font-size: 30px;">QR Code</h4>-->
+<!---->
+<!--                                            </div>-->
+<!---->
+<!--                                            <div class="modal-body" style="text-align:center">-->
+<!---->
+<!--                                                <img src="img/QR.jpg"/>-->
+<!---->
+<!--                                            </div>-->
+<!---->
+<!--                                            <div class="modal-footer">-->
+<!---->
+<!--                                                <button type="button" class="btn btn-default" data-dismiss="modal" style="color: #000!important">Close</button>-->
+<!---->
+<!--                                            </div>-->
+<!---->
+<!--                                        </div>-->
+<!---->
+<!--                                    </div>-->
+<!---->
+<!--                             </div>-->
 
-                                        <div class="modal fade" id="line" role="dialog">
-
-                                                <div class="modal-dialog">
-
-
-
-                                                    <div class="modal-content">
-
-                                                        <div class="modal-header">
-
-                                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
-
-                                                          <h4 class="modal-title text-left" style="color: #000; font-size: 30px;">QR Code</h4>
-
-                                                        </div>
-
-                                                        <div class="modal-body" style="text-align:center">
-
-                                                            <img src="img/QR.jpg"/> 
-
-                                                        </div>
-
-                                                        <div class="modal-footer">
-
-                                                            <button type="button" class="btn btn-default" data-dismiss="modal" style="color: #000!important">Close</button>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                  
-
-                                                </div>
-
-                                         </div>
-
-                                    </p>
+                        </p>
 
                         <div class="text-right"><button type="button" id="apply_now" class="btn btn-default btn-md" style="font-size: 20px;font-weight:bold;margin-top: 7px;padding: 8px 25px;">APPLY NOW</button></div>
 

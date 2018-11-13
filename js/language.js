@@ -6,7 +6,7 @@ function setLanguage(lang) {
 }
 
 function getLanguage() {
-    (localStorage.getItem('language') == null) ? setLanguage('eng'): false;
+    (localStorage.getItem('language') == null) ? setLanguage('thai'): false;
     var urlCurrent = window.location.href.toString().toLowerCase();
     $.ajax({
         url: './language/' + localStorage.getItem('language') + '.json',
@@ -15,9 +15,9 @@ function getLanguage() {
         dataType: 'json',
         success: function (lang) {
             language = lang;
-            console.log(language);
-            console.log('url:' + urlCurrent);
-            console.log('home'.includes(urlCurrent));
+            // console.log(language);
+            // console.log('url:' + urlCurrent);
+            // console.log('home'.includes(urlCurrent));
             if (urlCurrent.includes('home')) {
                 setTextHome();
             } else if (urlCurrent.includes('whyus')) {
@@ -111,5 +111,6 @@ function setTextRegister() {
 }
 
 $(document).ready(function () {
+    // console.log(localStorage.getItem('language'));
     getLanguage();
 });
