@@ -105,7 +105,7 @@
 <div class="container news-detail">
     <div class="news-detail news-detail-1">
         <div class=" mr-top-45" >
-            <img src="img/cor-1.png" style="width: 54px; margin-top: -50px; margin-left: 90px">
+            <img src="img/cor-1.png" style="width: 54px; margin-top: -54px; margin-left: 90px">
             <p>
                 “Topica offered an inspiring view into the power of online learning to expand rapidly
                 higher education access in Vietnam. As its founder, Pham Minh Tuan, said, disruption
@@ -123,7 +123,7 @@
     </div>
     <div class="news-detail news-detail-2 hidden">
         <div class=" mr-top-45" >
-            <img src="img/cor-2.png" style="width: 47px; margin-top: -50px; margin-left: 497px">
+            <img src="img/cor-2.png" style="width: 47px; margin-top: -47px; margin-left: 497px">
             <p>
                 “We reported that the Vietnamese government had incubated nine startups under
                 the auspices of the Ministry of Science and Technology. This month,
@@ -141,7 +141,7 @@
     </div>
     <div class="news-detail news-detail-3 hidden">
         <div class=" mr-top-45" >
-            <img src="img/cor-3.png" style="width: 54px; margin-top: -50px; margin-left: 890px">
+            <img src="img/cor-3.png" style="width: 54px; margin-top: -54px; margin-left: 890px">
             <p>
                 “These wise words aptly describe the original batch of 36 founders/startups of
                 Hanoi’s Topica Founder InstituteClass 3 cohort. The founders iterated, pivoted,

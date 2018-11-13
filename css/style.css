@@ -271,8 +271,11 @@ ul li{
 }
 
 #header ul a:hover{
-
     font-weight: bold;
+}
+
+#header a > img:hover {
+    cursor: pointer;
 }
 
 .height{

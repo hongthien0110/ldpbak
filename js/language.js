@@ -18,7 +18,17 @@ function getLanguage() {
             // console.log(language);
             // console.log('url:' + urlCurrent);
             // console.log('home'.includes(urlCurrent));
+            $('#form_t3').attr('placeholder',language.form_t3);
+            $('#form_t4').attr('placeholder',language.form_t4);
+            $('#form_t5').attr('placeholder',language.form_t5);
+            $('#form_t6').text(language.form_t6);
+            $('#form_t7').text(language.form_t7);
+            $('#form_t8').text(language.form_t8);
+            $('#form_t9').text(language.form_t9);
+            $('#form_t10').text(language.form_t10);
             if (urlCurrent.includes('home')) {
+                $('#form_t1').text(language.form_t1);
+                $('#form_t2').text(language.form_t2);
                 setTextHome();
             } else if (urlCurrent.includes('whyus')) {
                 setTextWhyUs();

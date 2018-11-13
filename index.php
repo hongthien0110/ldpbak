@@ -24,6 +24,7 @@ $url = 'http://english.topicanative.co.th//?code_chanel=' . $code_chanel . '&id=
     <link href="css/slide.css" rel="stylesheet" type="text/css"/>
     <script src="js/slide_bao_chi.js" type="text/javascript"></script>
     <script src="js/slide.js" type="text/javascript"></script>
+    <script src="js/language.js" type="text/javascript"></script>
     <!-- longtt 31/12/2015 -->
     <!--      <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

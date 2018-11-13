@@ -63,11 +63,16 @@
     "register_t7":"MAKING A TUITION PAYMENT FOR YOUR COURSE",
     "register_t8":"Tuition fee is based on individual learning roadmap, you can make your tuition by cash, credit card, bank transfer and Cash-on-Delivery",
     "register_t9":"STARTING YOUR COURSE IMMEDIATELY WITH YOUR OWN LEARNING ROADMAP",
-    "register_t10":"Student's learning roadmap at TOPICA Native is individual so you can start learning right away without waiting for other students"
-    
-    
-    
-    
-    
+    "register_t10":"Student's learning roadmap at TOPICA Native is individual so you can start learning right away without waiting for other students",
 
+    "form_t1":"REGISTER",
+    "form_t2":"For receiving your free English test",
+    "form_t3":"Name",
+    "form_t4":"Phone",
+    "form_t5":"Email",
+    "form_t6":"--- How old are you? ---",
+    "form_t7":"Under 18 yrs",
+    "form_t8":"18 - 22 yrs",
+    "form_t9":"23 yrs and over",
+    "form_t10":"SUBMIT"
 }
