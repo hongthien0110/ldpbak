@@ -179,33 +179,26 @@
 <div class="container-fluid" style="border-top: solid #DBAC69; margin-top:50px;"></div>
 <div class="container student" style="width:1200px;" >
     <div class="text-center row">
-        <h2  id="whyus_t15" class="color-red">REVIEW FROM OUR STUDENTS</h2>
+        <h2  id="whyus_t15" class="color-red">ความสำเร็จของนักเรียนของเรา</h2>
         <p style="border-top: 3px solid #DBAC69; width:230px; margin:auto; "></p>
     </div>
     <div class="row stu">
-        <div class="col-xs-6 text-center">
+        <div class="col-xs-4 text-center">
             <img src="img/stu1.png" >
-            <h3 id="whyus_t16" class="color-red">Chief Executive of MITR Technical Consultant</h3>
-            <p id="whyus_t17" >At Mr Taweep's company, there a a lot of employees
-                who are fluent in English but they never stop trying to
-                improve their English. Mr Taweep chose to learn
-                English online with TOPICA Native because the program
-                is very convenient. Students don't need to go anywhere.
-                They don't have to waste time travelling to class and it's
-                perfect for a busy lifestyle.<br/><br/>
+            <h3 class="color-red" style="min-height: 40px"><span id="whyus_t16">Ms. Pusshamon Khongkha</span><br/><span id="whyus_t17">Nurse</span></h3>
+            <p id="whyus_t18" style="min-height: 330px">ประทับใจในรูปแบบการเรียนของ TOPICA Native คือเราสามารถเข้าเรียนบทเรียนในชั้นกับครูชาวต่างชาติ และยังสามารถเข้าเรียนบทเรียนเดิมได้อีกครั้งในวันต่อมากับชั้นเรียนครูไทย บทเรียนเดียวกัน แต่เราได้เรียนประโยคมากขึ้น เหมือนได้ทบทวน และเพิ่มเติมไปพร้อมกัน เป็นการจัดตารางเรียนที่ดีมาก<br/><br/>
             </p>
         </div>
-        <div class="col-xs-6 text-center">
+        <div class="col-xs-4 text-center">
             <img src="img/stu2.png" >
-            <h3 id="whyus_t18" class="color-red">Tongtem Jirapat</h3>
-            <p id="whyus_t19" >Before I started studying with TOPICA Native, I wanted to
-                take IELTS in order to participate in the Working Holiday
-                Scheme Program in New Zealand. After learning with
-                TOPICA, it is obvious that my English skills are better.
-                I can speak more fluently and I got higher scores.
-                I passed IELTS. I have changed after learning with TOPICA
-                because I feel more confident now and I can hold a long
-                conversation or give an explanation in English.
+            <h3 class="color-red" style="min-height: 40px"><span id="whyus_t19">Mr. Nititorn C.</span><br/><span id="whyus_t20">Online Businessman</span></h3>
+            <p id="whyus_t21" style="min-height: 330px">ภาษาของผมอ่อนมาก ได้แค่ yes, no ,ok ผมต้องดันตัวเอง ธุรกิจของผมขยายกลุ่มลูกค้าจากคนไทย เป็นต่างชาติ ซึ่งทำให้ผมต้องใช้ภาษาอังกฤษในการสื่อสารกับลูกค้า ถ้าภาษาไม่ได้ผมก็ขายไม่ได้ ธุรกิจผมก็ไปไม่ได้.
+            </p>
+        </div>
+        <div class="col-xs-4 text-center">
+            <img src="img/stu3.png" >
+            <h3 class="color-red" style="min-height: 40px"><span id="whyus_t22">Ms. Sopa Mamee</span><br/><span id="whyus_t23">Manager</span></h3>
+            <p id="whyus_t24" style="min-height: 330px">ดิฉันเป็นหัวหน้างาน ภาษาอังกฤษต้องได้ ดิฉันเริ่มหันมาพัฒนาทักษะภาษาอังกฤษด้วยตัวเองก่อน ซึ่งพื้นฐานพอจะอ่านออกบ้าง แต่ฟังรัวๆไม่รู้เรื่อง แล้วเราต้องไปเป็นโค้ชให้พนักงานที่มาจากต่างประเทศ ต้องให้เพื่อนคอยช่วยเช็คภาษาอังกฤษให้ตลอด โดยเฉพาะเวลาจะร่างเอกสารเกี่ยวกับภาษาอังกฤษ หลังจากเรียนกับ TOPICA ตอนนี้สามารถคิดแล้วพูดเองได้เลย ไม่ต้องใช้เอกสารอีกแล้ว ทักษะทางการสื่อสารเราดีขึ้นเยอะ อาจจะไม่ถูกแกรมม่าไปทั้งหมด แต่รู้ว่ามันพัฒนาขึ้นเยอะจริงๆ.
             </p>
         </div>
     </div>

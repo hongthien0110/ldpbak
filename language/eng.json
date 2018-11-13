@@ -23,11 +23,16 @@
     "whyus_t12": "The online English learning method that TOPICA Native has been applying is designed for those who want to improve listening and speaking skills, which most of Thai people are not very good at. However, the learners still are provided with knowledge about grammar and vocabulary.",
     "whyus_t13": "100% NATIVE TEACHERS",
     "whyus_t14": "TOPICA Native's teaching staff consists of over 200 native speakers from Europe, America and Australia, giving the opportunity for students to familiarize themselves with various accents.",
-    "whyus_t15": "",
-    "whyus_t16": "",
-    "whyus_t17": "",
-    "whyus_t18": "",
-    "whyus_t19": "",
+    "whyus_t15": "REVIEW FROM OUR STUDENTS",
+    "whyus_t16": "Ms. Pusshamon Khongkha",
+    "whyus_t17": "Nurse",
+    "whyus_t18": "I am very impressed with TOPICA NATIVE’s teaching system. We can register a class with a foreign teacher today and register the same class with Thai teacher the next day. That way we can learn more sentences and review our lessons at the same time. Very good scheduling system.",
+    "whyus_t19": "Mr. Nititorn C.",
+    "whyus_t20": "Online Businessman",
+    "whyus_t21": "My english is very weak. I could only say “yes, no and ok”. And I have to expand my business from local to international customers, that’s why I need to have English communication skills to deal with my customers. So if my english is weak, so is my business.",
+    "whyus_t22": "Ms. Sopa Mamee",
+    "whyus_t23": "Manager",
+    "whyus_t24": "I’m a manager so I need to be able to speak English. I began to improve my english skill by myself. I could read fine but I couldn’t understand a long conversation. My job is to be the coach of foreign staff so I often had my friend helping me with english documents. However, after having studied with TOPICA, I can form my own sentences now. Even though, my grammar isn’t always correct but I know I have improved a lot.",
     
     "ourteam_t1":"NATIVE TEACHERS",
     "ourteam_t2":"100% teachers in TOPICA Native are from US, UK and Australia to ensure that students can practice listening with various accents. The selected teachers all possess years of experience at prestigious colleges and English centers. All of them have to undergo strict ability examinations and receive thorough training of online teaching skills so that the quality of classes always reach the highest standard possible.",
@@ -74,5 +79,12 @@
     "form_t7":"Under 18 yrs",
     "form_t8":"18 - 22 yrs",
     "form_t9":"23 yrs and over",
-    "form_t10":"SUBMIT"
+    "form_t10":"SUBMIT",
+
+    "menu_t1":"HOME",
+    "menu_t2":"WHY US",
+    "menu_t3":"OUR TEAM",
+    "menu_t4":"LEARNING METHOD",
+    "menu_t5":"PACKAGE",
+    "menu_t6":"REGISTER"
 }

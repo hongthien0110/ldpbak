@@ -18,6 +18,13 @@ function getLanguage() {
             // console.log(language);
             // console.log('url:' + urlCurrent);
             // console.log('home'.includes(urlCurrent));
+            $('#home').text(language.menu_t1);
+            $('#whyus').text(language.menu_t2);
+            $('#ourteam').text(language.menu_t3);
+            $('#method').text(language.menu_t4);
+            $('#package').text(language.menu_t5);
+            $('#register').text(language.menu_t6);
+
             $('#form_t3').attr('placeholder',language.form_t3);
             $('#form_t4').attr('placeholder',language.form_t4);
             $('#form_t5').attr('placeholder',language.form_t5);
@@ -71,6 +78,16 @@ function setTextWhyUs() {
     $('#whyus_t12').text(language.whyus_t12);
     $('#whyus_t13').text(language.whyus_t13);
     $('#whyus_t14').text(language.whyus_t14);
+    $('#whyus_t15').text(language.whyus_t15);
+    $('#whyus_t16').text(language.whyus_t16);
+    $('#whyus_t17').text(language.whyus_t17);
+    $('#whyus_t18').text(language.whyus_t18);
+    $('#whyus_t19').text(language.whyus_t19);
+    $('#whyus_t20').text(language.whyus_t20);
+    $('#whyus_t21').text(language.whyus_t21);
+    $('#whyus_t22').text(language.whyus_t22);
+    $('#whyus_t23').text(language.whyus_t23);
+    $('#whyus_t24').text(language.whyus_t24);
 }
 
 function setTextOurTeam() {

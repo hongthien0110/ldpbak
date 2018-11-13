@@ -12,27 +12,27 @@
                                 echo '?code_chanel=' . $code_chanel . '&id=' . $id;
                             }
                             ?>" class="color_a  <?php if ($active_url == "/Home.php" || $active_url=='/' ) echo "bold br-white" ; ?>">HOME</a></li>
-                    <li class="hvr-overline-from-center menu_li"><a href="./Whyus.php<?php
+                    <li class="hvr-overline-from-center menu_li"><a id="whyus" href="./Whyus.php<?php
                             if ($id != '4173'|| $code_chanel != 'topicanative_asia_001') {
                                 echo '?code_chanel=' . $code_chanel . '&id=' . $id;
                             }
                             ?>" class="color_a <?php if ($active_url == "/Whyus.php") echo "bold br-white" ; ?>">WHY US</a></li>
-                    <li class="hvr-overline-from-center menu_li"><a href="./Ourteam.php<?php
+                    <li class="hvr-overline-from-center menu_li"><a id="ourteam" href="./Ourteam.php<?php
                             if ($id != '4173'|| $code_chanel != 'topicanative_asia_001') {
                                 echo '?code_chanel=' . $code_chanel . '&id=' . $id;
                             }
                             ?>" class="color_a <?php if ($active_url == "/Ourteam.php") echo "bold br-white" ; ?>">OUR TEAM</a></li>
-                    <li class="hvr-overline-from-center menu_li"><a href="./Method.php<?php
+                    <li class="hvr-overline-from-center menu_li"><a id="method" href="./Method.php<?php
                             if ($id != '4173'|| $code_chanel != 'topicanative_asia_001') {
                                 echo '?code_chanel=' . $code_chanel . '&id=' . $id;
                             }
                             ?>" class="color_a <?php if ($active_url == "/Method.php") echo "bold br-white" ; ?>">LEARNING METHOD</a></li>
-                    <li class="hvr-overline-from-center menu_li"><a href="./Package.php<?php
+                    <li class="hvr-overline-from-center menu_li"><a id="package" href="./Package.php<?php
                             if ($id != '4173'|| $code_chanel != 'topicanative_asia_001') {
                                 echo '?code_chanel=' . $code_chanel . '&id=' . $id;
                             }
                             ?>" class="color_a <?php if ($active_url == "/Package.php") echo "bold br-white" ; ?>">PACKAGE</a></li>
-                    <li class="hvr-overline-from-center menu_li"><a href="./Register.php<?php
+                    <li class="hvr-overline-from-center menu_li"><a id="register" href="./Register.php<?php
                             if ($id != '4173'|| $code_chanel != 'topicanative_asia_001') {
                                 echo '?code_chanel=' . $code_chanel . '&id=' . $id;
                             }
