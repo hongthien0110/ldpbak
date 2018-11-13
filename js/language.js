@@ -26,11 +26,7 @@ function getLanguage() {
             $('#form_t8').text(language.form_t8);
             $('#form_t9').text(language.form_t9);
             $('#form_t10').text(language.form_t10);
-            if (urlCurrent.includes('home')) {
-                $('#form_t1').text(language.form_t1);
-                $('#form_t2').text(language.form_t2);
-                setTextHome();
-            } else if (urlCurrent.includes('whyus')) {
+            if (urlCurrent.includes('whyus')) {
                 setTextWhyUs();
             } else if (urlCurrent.includes('ourteam')) {
                 setTextOurTeam();
@@ -41,7 +37,9 @@ function getLanguage() {
             } else if (urlCurrent.includes('register')) {
                 setTextRegister();
             }else {
-                console.log("not found");
+                $('#form_t1').text(language.form_t1);
+                $('#form_t2').text(language.form_t2);
+                setTextHome();
             }
         }
     });
