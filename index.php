@@ -25,7 +25,9 @@ $url = 'http://english.topicanative.co.th//?code_chanel=' . $code_chanel . '&id=
     <script src="js/slide.js" type="text/javascript"></script>
     <script src="js/language.js" type="text/javascript"></script>
 
-    <link rel="image_src" href="img/thumbnail.png" />
+    <meta property="og:image" content="img/thumbnail.png" />
+    <meta property="og:title" content="Topica Native" />
+    <meta property="og:description" content="Learn English Online..." />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129206999-1"></script>
