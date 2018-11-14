@@ -142,7 +142,7 @@
 <div class="container-fluid mr-top-45" style="border-top: solid #DBAC69;"></div>
 <div class="container student" >
     <div class="text-center row">
-        <h2 class="color-red">OUR CLASS</h2>
+        <h2 class="color-red" id="method_t7">โปรแกรมของเรา</h2>
         <p style="border-top: 3px solid #DBAC69; width:230px; margin:auto; "></p>
     </div>
     <div class="row stu text-center">

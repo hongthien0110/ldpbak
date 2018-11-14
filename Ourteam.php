@@ -4,20 +4,21 @@
   <?php require_once './template/head.php'; ?>
   <link href="css/ourterm.css" rel="stylesheet" type="text/css"/>
     <script src="js/language.js" type="text/javascript"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129206999-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129206999-1');
+    </script>
+
 </head>
 <body>
-  <!-- minhna3 26/12/2015 -->
-<!--   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-71654034-5', 'auto');
-    ga('send', 'pageview');
-
-  </script> -->
-  <div id="wrapper">
+<div id="wrapper">
     <!--header-->
     <?php require_once './template/header.php'; ?>
     <!--slide-->
@@ -32,16 +33,6 @@
     <!--footer-->
     <?php require_once './template/footer.php'; ?>
   </div>
-    <!-- Google Analytics Code -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-82051923-2', 'auto');
-      ga('send', 'pageview');
-    </script>
-  <!-- End Google Analytics Code -->
 </body>
 </html>
 

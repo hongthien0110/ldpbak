@@ -396,15 +396,18 @@ function olmxSendContact(form) {
                     + JSON.stringify(ajax_data) + " "
                     + JSON.stringify(response), "contact_log.txt");
                 // console.log("Failed !");
-                location.href = "http://bestenglish.topicanative.co.th/helios";
+                // location.href = "http://bestenglish.topicanative.co.th/helios";
+                location.href = "thank-you.php";
             } else {
                 // console.log("Thanks !");
-                location.href = response.url;
+                // location.href = response.url;
+                location.href = "thank-you.php";
             }
         }).error( function(response) {
             saveLog(window.location.hostname + " AJAX error...", "contact_log.txt");
             // console.log("Error !", response);
-            location.href = "http://bestenglish.topicanative.co.th/helios";
+            // location.href = "http://bestenglish.topicanative.co.th/helios";
+            location.href = "thank-you.php";
         });
     }
 }

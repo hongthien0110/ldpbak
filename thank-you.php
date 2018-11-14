@@ -38,6 +38,16 @@ src="https://www.facebook.com/tr?id=827276964031507&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129206999-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129206999-1');
+    </script>
+
 </head>
 
 <body>
@@ -60,9 +70,9 @@ var google_remarketing_only = false;
 <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/951414675/?label=L-sTCL7LrlwQk9_VxQM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
-<center>
-<img src="img/thank-you.png"></center>
-
+<div style="text-align: center">
+    <img src="img/thank-you.png">
+</div>
 
 </body>
 </html>

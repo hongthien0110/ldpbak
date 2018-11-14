@@ -108,8 +108,7 @@ function setTextMethod() {
     $('#method_t4').text(language.method_t4);
     $('#method_t5').text(language.method_t5);
     $('#method_t6').text(language.method_t6);
-//    $('#whyus_t7').text(language.whyus_t7);
-//    $('#whyus_t8').text(language.whyus_t8);
+    $('#method_t7').text(language.method_t7);
 }
 function setTextPackage() {
     $('#home_t1').text(language.whyus_t1);
