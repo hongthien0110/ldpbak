@@ -184,19 +184,19 @@
     </div>
     <div class="row stu">
         <div class="col-xs-4 text-center">
-            <img src="img/stu1.png" >
+            <img src="img/stu1.png" height="200" width="200">
             <h3 class="color-red" style="min-height: 40px"><span id="whyus_t16">Ms. Pusshamon Khongkha</span><br/><span id="whyus_t17">Nurse</span></h3>
             <p id="whyus_t18" style="min-height: 330px">ประทับใจในรูปแบบการเรียนของ TOPICA Native คือเราสามารถเข้าเรียนบทเรียนในชั้นกับครูชาวต่างชาติ และยังสามารถเข้าเรียนบทเรียนเดิมได้อีกครั้งในวันต่อมากับชั้นเรียนครูไทย บทเรียนเดียวกัน แต่เราได้เรียนประโยคมากขึ้น เหมือนได้ทบทวน และเพิ่มเติมไปพร้อมกัน เป็นการจัดตารางเรียนที่ดีมาก<br/><br/>
             </p>
         </div>
         <div class="col-xs-4 text-center">
-            <img src="img/stu2.png" >
+            <img src="img/stu2.png" height="200" width="200">
             <h3 class="color-red" style="min-height: 40px"><span id="whyus_t19">Mr. Nititorn C.</span><br/><span id="whyus_t20">Online Businessman</span></h3>
             <p id="whyus_t21" style="min-height: 330px">ภาษาของผมอ่อนมาก ได้แค่ yes, no ,ok ผมต้องดันตัวเอง ธุรกิจของผมขยายกลุ่มลูกค้าจากคนไทย เป็นต่างชาติ ซึ่งทำให้ผมต้องใช้ภาษาอังกฤษในการสื่อสารกับลูกค้า ถ้าภาษาไม่ได้ผมก็ขายไม่ได้ ธุรกิจผมก็ไปไม่ได้.
             </p>
         </div>
         <div class="col-xs-4 text-center">
-            <img src="img/stu3.png" >
+            <img src="img/stu3.png" height="200" width="200">
             <h3 class="color-red" style="min-height: 40px"><span id="whyus_t22">Ms. Sopa Mamee</span><br/><span id="whyus_t23">Manager</span></h3>
             <p id="whyus_t24" style="min-height: 330px">ดิฉันเป็นหัวหน้างาน ภาษาอังกฤษต้องได้ ดิฉันเริ่มหันมาพัฒนาทักษะภาษาอังกฤษด้วยตัวเองก่อน ซึ่งพื้นฐานพอจะอ่านออกบ้าง แต่ฟังรัวๆไม่รู้เรื่อง แล้วเราต้องไปเป็นโค้ชให้พนักงานที่มาจากต่างประเทศ ต้องให้เพื่อนคอยช่วยเช็คภาษาอังกฤษให้ตลอด โดยเฉพาะเวลาจะร่างเอกสารเกี่ยวกับภาษาอังกฤษ หลังจากเรียนกับ TOPICA ตอนนี้สามารถคิดแล้วพูดเองได้เลย ไม่ต้องใช้เอกสารอีกแล้ว ทักษะทางการสื่อสารเราดีขึ้นเยอะ อาจจะไม่ถูกแกรมม่าไปทั้งหมด แต่รู้ว่ามันพัฒนาขึ้นเยอะจริงๆ.
             </p>
