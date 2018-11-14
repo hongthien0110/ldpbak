@@ -19,12 +19,13 @@ $url = 'http://english.topicanative.co.th//?code_chanel=' . $code_chanel . '&id=
 <html>
 <head>
 
-    
     <?php require_once './template/head.php'; ?>
     <link href="css/slide.css" rel="stylesheet" type="text/css"/>
     <script src="js/slide_bao_chi.js" type="text/javascript"></script>
     <script src="js/slide.js" type="text/javascript"></script>
     <script src="js/language.js" type="text/javascript"></script>
+
+    <link rel="image_src" href="img/thumbnail.png" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129206999-1"></script>
