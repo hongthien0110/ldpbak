@@ -40,7 +40,7 @@
                     <div class="blur"></div>
                     <div class="caption-text">
 
-                        <p id="home_t8"  style="margin-top: 25px;">Each learner has their own advisor</p>
+                        <p id="home_t5"  style="margin-top: 25px;">Each learner has their own advisor</p>
                     </div>
                 </div>
             </a>
@@ -52,7 +52,7 @@
                     <div class="blur"></div>
                     <div class="caption-text">
 
-                        <p  id="home_t5" style="margin-top: 3px;">Learn English with more than 200 teachers from Europe, Australia, USA<br/>with different accents</p>
+                        <p  id="home_t6" style="margin-top: 3px;">Learn English with more than 200 teachers from Europe, Australia, USA<br/>with different accents</p>
                     </div>
                 </div>
             </a>
@@ -65,7 +65,7 @@
                     <div class="blur"></div>
                     <div class="caption-text">
 
-                        <p  id="home_t6" style="margin-top: 15px;">Testing your english skill at TOPICA NATIVE via CASEC test</p>
+                        <p  id="home_t7" style="margin-top: 15px;">Testing your english skill at TOPICA NATIVE via CASEC test</p>
                     </div>
                 </div>
             </a>
@@ -83,7 +83,7 @@
 
 <div class="container student" style="width:1200px;" >
     <div class="text-center row">
-        <h2  id="home_t7" class="color-red">MEDIA TALK ABOUT TOPICA</h2>
+        <h2 id="home_t8" class="color-red">MEDIA TALK ABOUT TOPICA</h2>
         <p style="border-top: 3px solid #DBAC69; width:230px; margin:auto; "></p>
     </div>
     <div class="row text-center mr-45 news-logo">
@@ -104,15 +104,15 @@
 
 <div class="container news-detail">
     <div class="news-detail news-detail-1">
-        <div class=" mr-top-45" >
+        <div class="mr-top-45" >
             <img src="img/cor-1.png" style="width: 54px; margin-top: -54px; margin-left: 90px">
-            <p>
+            <p id="home_t9">
                 “Topica offered an inspiring view into the power of online learning to expand rapidly
                 higher education access in Vietnam. As its founder, Pham Minh Tuan, said, disruption
                 is the only hope for Vietnam to provide the higher education capacity that the country
                 needs...”
             </p>
-     
+
         </div>
         <p class="text-right" >
             <a href="http://www.forbes.com/sites/michaelhorn/2014/03/03/entrepreneurs-seek-to-transform-education-in-vietnam/" target="_blank" style="text-decoration: none">
@@ -124,13 +124,13 @@
     <div class="news-detail news-detail-2 hidden">
         <div class=" mr-top-45" >
             <img src="img/cor-2.png" style="width: 47px; margin-top: -47px; margin-left: 497px">
-            <p>
+            <p id="home_t10">
                 “We reported that the Vietnamese government had incubated nine startups under
                 the auspices of the Ministry of Science and Technology. This month,
                 Topica’s Founder’s Institute, an accelerator based out of Vietnam’s capital Hanoi,
                 is announcing its latest batch of twelve startups....”
             </p>
-     
+
         </div>
         <p class="text-right" >
             <a href="https://www.techinasia.com/founders-institute-vietnam-batch-three/" target="_blank" style="text-decoration: none">            
@@ -142,13 +142,13 @@
     <div class="news-detail news-detail-3 hidden">
         <div class=" mr-top-45" >
             <img src="img/cor-3.png" style="width: 54px; margin-top: -54px; margin-left: 890px">
-            <p>
+            <p id="home_t11">
                 “These wise words aptly describe the original batch of 36 founders/startups of
                 Hanoi’s Topica Founder InstituteClass 3 cohort. The founders iterated, pivoted,
                 validated, and tested their ideas in front of more than 50 mentors and advisors over a
                 period of 16 weeks.....”
             </p>
-     
+
         </div>
         <p class="text-right" >
             <a href="http://e27.co/meet-the-graduating-startups-of-topica-founder-institutes-3rd-cohort-20141117/" target="_blank" style="text-decoration: none">

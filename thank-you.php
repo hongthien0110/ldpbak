@@ -71,7 +71,7 @@ var google_remarketing_only = false;
 </div>
 </noscript>
 <div style="text-align: center">
-    <img src="img/thank-you.png">
+    <img src="img/thank-you.png" width="100%">
 </div>
 
 </body>

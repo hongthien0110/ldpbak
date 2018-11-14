@@ -1,12 +1,15 @@
 ﻿{
     "home_t1": "The Pioneer in Bringing World-Class Online Education Technologies to Thailand",
     "home_t2": "Practice English online, anywhere, any time without worrying about traffic jam",
-    "home_t3": "Pratice English up to 16 hours per day, as much as you want",
-    "home_t4": "Each leaner has an individual learning plan, learners can start studying after registration",
-    "home_t5": "Learn English with more than 200 teachers from Europe, Australia, USA with different accents",
-    "home_t6": "Testing your english skill at TOPICA NATIVE via CASEC test",
-    "home_t7": "MEDIA TALK ABOUT TOPICA",
-    "home_t8": "Each learner has their own advisor",
+    "home_t3": "Practice English up to 16 hours per day, as much as you want",
+    "home_t4": "Each learner has an individual learning plan, learners can start studying after registration",
+    "home_t5": "Each learner has their own advisor",
+    "home_t6": "Learn English with more than 200 teachers from Europe, Australia, USA with different accents",
+    "home_t7": "Testing your english skill at TOPICA NATIVE via CASEC test",
+    "home_t8": "MEDIA TALK ABOUT TOPICA",
+    "home_t9": "Topica offered an inspiring view into the power of online learning to expand rapidly higher education access in Vietnam. As its founder, Pham Minh Tuan, said, disruption is the only hope for Vietnam to provide the higher education capacity that the country needs...",
+    "home_t10": "We reported that the Vietnamese government had incubated nine Startups under the auspices of the Ministry of Science and Technology. This month, Topica’s Founder’s Institute, an accelerator based out of Vietnam’s capital Hanoi, is announcing its latest batch of twelve Startups....",
+    "home_t11": "These wise words aptly describe the original batch of 36 Founders/Startups of Hanoi’s Topica Founder InstituteClass 3 cohort. The Founders iterated, pivoted, validated, and tested their ideas in front of more than 50 mentors and advisors over a period of 16 weeks.....",
 
     "whyus_t1": "The Pioneer in Bringing World-Class Online Education Technologies to Thailand",
     "whyus_t2": "Any time Anywhere",
@@ -47,7 +50,7 @@
     "method_t2":"L I P E LECTURE - INTERACTION - PRACTICE - EXAM",
     "method_t3":"With the traditional method (L.I.P.E), you start with theory lesson (Lecture), following by discussion with classmates (Interactive), then practicing with teachers (Practice) and test (Exam).",
     "method_t4":"P I E L E PRACTICE - INTERACTION - EVALUATION - LECTURE - EXAM",
-    "method_t5":"With the advanced method of P.I.E.L.E from the beginning, you get to (Practice) with native teachers even when you have not thoroughly understand theory, following by exchange and discussion with classmates and your advisor (Interaction) that will help you reognize your mistakes, then the teacher will evaluate (Evaluation) your performance in class. After that, the teacher will summarize the lesson (Lecture) and finally, you will take periodical (Exam) to determine you current English level.",
+    "method_t5":"With the advanced method of P.I.E.L.E from the beginning, you get to (Practice) with native teachers even when you have not thoroughly understand theory, following by exchange and discussion with classmates and your advisor (Interaction) that will help you recognize your mistakes, then the teacher will evaluate (Evaluation) your performance in class. After that, the teacher will summarize the lesson (Lecture) and finally, you will take periodical (Exam) to determine you current English level.",
     "method_t6":"Furthermore, by joining TOPICA Native English Online with P.I.E.L.E process, you have a chance to practice more and work toward the final goal that is to apply what you learn into real life, instead of mere results from tests and exams, so you will achieve outstanding improvement.",
     "method_t7":"OUR PROGRAM",
     
@@ -57,10 +60,9 @@
     "package_t4":"BY TRANSFER",
     "package_t5":"BY CASH",
     "package_t6":"BY CREDIT CARD",
-    "package_t7":"",
-    
+
     "register_t1":"FILLING IN YOUR CONTACT INFORMATION INTO APPLICATION FORM",
-    "register_t2":"Please fill in your contact information correctly including: Full name, Phone Number, Email address and Age to receive our free consultantion",
+    "register_t2":"Please fill in your contact information correctly including: Full name, Phone Number, Email address and Age to receive our free consultation",
     "register_t3":"RECEIVING ALL INFORMATION ABOUT THE PROGRAM FROM OUR CONSULTANTS",
     "register_t4":"Consultants from TOPICA Native will call to give you all information you need to know about the program and answer all your questions about the program",
     "register_t5":"TESTING YOUR ENGLISH SKILL BY INTERNATIONAL STANDARDS",
@@ -86,5 +88,7 @@
     "menu_t3":"OUR TEAM",
     "menu_t4":"LEARNING METHOD",
     "menu_t5":"PACKAGE",
-    "menu_t6":"REGISTER"
+    "menu_t6":"REGISTER",
+
+    "extra_info_src":"img/Extra_Info.png"
 }

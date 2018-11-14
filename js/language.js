@@ -12,7 +12,6 @@ function getLanguage() {
         url: './language/' + localStorage.getItem('language') + '.json',
         dataType: 'json',
         async: false,
-        dataType: 'json',
         success: function (lang) {
             language = lang;
             // console.log(language);
@@ -33,6 +32,8 @@ function getLanguage() {
             $('#form_t8').text(language.form_t8);
             $('#form_t9').text(language.form_t9);
             $('#form_t10').text(language.form_t10);
+
+            // $('#extra-info').attr('src', language.extra_info_src);
             if (urlCurrent.includes('whyus')) {
                 setTextWhyUs();
             } else if (urlCurrent.includes('ourteam')) {
@@ -43,7 +44,7 @@ function getLanguage() {
                 setTextPackage();
             } else if (urlCurrent.includes('register')) {
                 setTextRegister();
-            }else {
+            } else {
                 $('#form_t1').text(language.form_t1);
                 $('#form_t2').text(language.form_t2);
                 setTextHome();
@@ -61,6 +62,10 @@ function setTextHome() {
     $('#home_t6').text(language.home_t6);
     $('#home_t7').text(language.home_t7);
     $('#home_t8').text(language.home_t8);
+    $('#home_t9').text(language.home_t9);
+    $('#home_t10').text(language.home_t10);
+    $('#home_t11').text(language.home_t11);
+    $('#home_t12').text(language.home_t12);
 }
 
 function setTextWhyUs() {
@@ -118,7 +123,6 @@ function setTextPackage() {
     $('#package_t4').text(language.package_t4);
     $('#package_t5').text(language.package_t5);
     $('#package_t6').text(language.package_t6);
-//    $('#package_t7').text(language.package_t7);
 }
 function setTextRegister() {
     $('#home_t1').text(language.whyus_t1);
