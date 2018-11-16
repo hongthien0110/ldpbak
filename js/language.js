@@ -69,7 +69,7 @@ function setTextHome() {
 }
 
 function setTextWhyUs() {
-    $('#home_t1').text(language.whyus_t1);
+    $('#home_t1').text(language.home_t1);
     $('#whyus_t2').text(language.whyus_t2);
     $('#whyus_t3').text(language.whyus_t3);
     $('#whyus_t4').text(language.whyus_t4);
@@ -96,7 +96,7 @@ function setTextWhyUs() {
 }
 
 function setTextOurTeam() {
-    $('#home_t1').text(language.whyus_t1);
+    $('#home_t1').text(language.home_t1);
     $('#ourteam_t1').text(language.ourteam_t1);
     $('#ourteam_t2').text(language.ourteam_t2);
     $('#ourteam_t3').text(language.ourteam_t3);
@@ -106,7 +106,7 @@ function setTextOurTeam() {
     $('#ourteam_t7').text(language.ourteam_t7);
 }
 function setTextMethod() {
-    $('#home_t1').text(language.whyus_t1);
+    $('#home_t1').text(language.home_t1);
     $('#method_t1').text(language.method_t1);
     $('#method_t2').text(language.method_t2);
     $('#method_t3').text(language.method_t3);
@@ -116,7 +116,7 @@ function setTextMethod() {
     $('#method_t7').text(language.method_t7);
 }
 function setTextPackage() {
-    $('#home_t1').text(language.whyus_t1);
+    $('#home_t1').text(language.home_t1);
     $('#package_t1').text(language.package_t1);
     $('#package_t2').text(language.package_t2);
     $('#package_t3').text(language.package_t3);
@@ -125,7 +125,7 @@ function setTextPackage() {
     $('#package_t6').text(language.package_t6);
 }
 function setTextRegister() {
-    $('#home_t1').text(language.whyus_t1);
+    $('#home_t1').text(language.home_t1);
     $('#register_t1').text(language.register_t1);
     $('#register_t2').text(language.register_t2);
     $('#register_t3').text(language.register_t3);
