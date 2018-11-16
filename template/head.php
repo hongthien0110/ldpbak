@@ -1,13 +1,13 @@
 <meta charset="utf-8" />
 <title>Topica Native</title>
+<meta name="image" content="img/thumbnail.png" />
 <meta name="description" content="ภาษาอังกฤษออนไลน์สำหรับวัยทำงาน,เรียนภาษาอังกฤษ,ครูฝรั่งสอน,ฝึกพูดกับครูชาวต่างชาติ,เก่งภาษาอังกฤษ,คอมพิวเตอร์,ภาษาอังกฤษผ่านเน็ต,ฟังภาษาอังกฤษ,ฝึกภาษาอังกฤษ"/>
 <meta name="keywords" content="เรียนภาษาอังกฤษ,เก่งภาษาอังกฤษ,เรียนภาษาอังกฤษเบื้องต้น,เรียนภาษาอังกฤษเริ่มต้น,ภาษาอังกฤษเพื่อการสื่อสาร,สนทนาภาษาอังกฤษ,คอร์สเรียนภาษาอังกฤษ,คุยกับฝรั่งฝึก,ภาษาอังกฤษ,หาเพื่อนต่างชาติฝึกภาษาอังกฤษ,เรียนภาษาอังกฤษผ่านเน็ต,เรียนภาษาอังกฤษผ่านเว็บ,ภาษาอังกฤษในชีวิตประจําวัน,เรียนรู้ภาษาอังกฤษ,ฟังภาษาอังกฤษ,เรียนภาษาอังกฤษ online,เรียนภาษาอังกฤษออนไลน์,ฝึกภาษาอังกฤษ,เรียนภาษาอังกฤษด้วยตัวเอง,เรียนภาษาอังกฤษด้วยตนเอง,พูดภาษาอังกฤษ,ทดสอบภาษาอังกฤษ,แบบทดสอบภาษาอังกฤษออนไลน์,สอนภาษาอังกฤษออนไลน์,topica native,topica,วิธีพูดภาษาอังกฤษให้เก่ง,learn english,speak english,conversation,communication,teach english,listen english,test english,english online,อาจารย์เจ้าของภาษา"/>
-
-<link type="image/x-icon" href="img/favicon.png" rel="shortcut icon">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="stylesheet" type="text/css" href="css/style-hover.css">
+<link type="image/x-icon" href="img/favicon.png" rel="shortcut icon">
 
+<link rel="stylesheet" type="text/css" href="css/style-hover.css">
 
 <link rel="stylesheet" type="text/css" href="css/hover.css">
 <link rel="stylesheet" type="text/css" href="css/hover-min.css">
