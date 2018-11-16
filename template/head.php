@@ -4,7 +4,7 @@
 <meta name="keywords" content="เรียนภาษาอังกฤษ,เก่งภาษาอังกฤษ,เรียนภาษาอังกฤษเบื้องต้น,เรียนภาษาอังกฤษเริ่มต้น,ภาษาอังกฤษเพื่อการสื่อสาร,สนทนาภาษาอังกฤษ,คอร์สเรียนภาษาอังกฤษ,คุยกับฝรั่งฝึก,ภาษาอังกฤษ,หาเพื่อนต่างชาติฝึกภาษาอังกฤษ,เรียนภาษาอังกฤษผ่านเน็ต,เรียนภาษาอังกฤษผ่านเว็บ,ภาษาอังกฤษในชีวิตประจําวัน,เรียนรู้ภาษาอังกฤษ,ฟังภาษาอังกฤษ,เรียนภาษาอังกฤษ online,เรียนภาษาอังกฤษออนไลน์,ฝึกภาษาอังกฤษ,เรียนภาษาอังกฤษด้วยตัวเอง,เรียนภาษาอังกฤษด้วยตนเอง,พูดภาษาอังกฤษ,ทดสอบภาษาอังกฤษ,แบบทดสอบภาษาอังกฤษออนไลน์,สอนภาษาอังกฤษออนไลน์,topica native,topica,วิธีพูดภาษาอังกฤษให้เก่ง,learn english,speak english,conversation,communication,teach english,listen english,test english,english online,อาจารย์เจ้าของภาษา"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<meta property="og:image" content="img/thumbnail.png" />
+<meta property="og:image" content="img/favicon.png" />
 <meta property="og:title" content="Topica Native" />
 <meta property="og:description" content="Learn English Online !!!" />
 
