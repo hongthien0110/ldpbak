@@ -116,7 +116,7 @@
         </div>
         <p class="text-right" >
             <a href="http://www.forbes.com/sites/michaelhorn/2014/03/03/entrepreneurs-seek-to-transform-education-in-vietnam/" target="_blank" style="text-decoration: none">
-                <img src="img/Layer 28-Home.png" alt="" style="width: 19px; margin-top: -2px;" />
+                <img src="img/28-More.png" alt="" style="width: 19px; margin-top: -2px;" />
                 <span class="color-red">SEE MORE</span>
             </a>
         </p>
@@ -134,7 +134,7 @@
         </div>
         <p class="text-right" >
             <a href="https://www.techinasia.com/founders-institute-vietnam-batch-three/" target="_blank" style="text-decoration: none">            
-                <img src="img/Layer 28-Home.png" alt="" style="width: 19px; margin-top: -2px;" />
+                <img src="img/28-More.png" alt="" style="width: 19px; margin-top: -2px;" />
                 <span class="color-red">SEE MORE</span>
             </a>
         </p>
@@ -152,7 +152,7 @@
         </div>
         <p class="text-right" >
             <a href="http://e27.co/meet-the-graduating-startups-of-topica-founder-institutes-3rd-cohort-20141117/" target="_blank" style="text-decoration: none">
-                <img src="img/Layer 28-Home.png" alt="" style="width: 19px; margin-top: -2px;" />
+                <img src="img/28-More.png" alt="" style="width: 19px; margin-top: -2px;" />
                 <span class="color-red">SEE MORE</span>
             </a>
         </p>
