@@ -25,7 +25,7 @@ $url = 'http://english.topicanative.co.th//?code_chanel=' . $code_chanel . '&id=
     <script src="js/slide.js" type="text/javascript"></script>
     <script src="js/language.js" type="text/javascript"></script>
 
-    <meta property="og:image" content="img/thumbnail.png" />
+    <meta property="og:image" content="http://www.topicanative.asia/img/thumbnail.png" />
     <meta property="og:title" content="Topica Native" />
     <meta property="og:description" content="Learn English Online..." />
 
