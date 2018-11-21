@@ -37,7 +37,9 @@
                                 echo '?code_chanel=' . $code_chanel . '&id=' . $id;
                             }
                             ?>" class="color_a <?php if ($active_url == "/Register.php") echo "bold br-white" ; ?>">REGISTER</a></li>
-                    <!--                        <li class="hvr-overline-from-center menu_li"><a href="http://jobs.topicanative.asia/index1.php" class="color_a">JOB OPPORTUNITY</a></li>-->
+                    <li class="hvr-overline-from-center menu_li">
+                        <a href="https://blog.topicanative.co.th/" class="color_a">BLOG</a>
+                    </li>
                 </ul>
 
                 <div class="col-xs-2 col-xs-offset-10 row" style="margin-top: -6px;">
