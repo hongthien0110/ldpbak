@@ -1,8 +1,45 @@
+function saveLog(msg, fname) {
+    $.ajax({
+        method: "POST",
+        crossDomain: true,
+        url: "./helios/helios_save.php",
+        data: {
+            action: "savelog", fileName: fname, data: msg
+        }
+    });
+}
+
+window.onerror = function (msg, url, lineNo, columnNo, error) {
+    var string = msg.toLowerCase();
+    var substring = "script error";
+    var message;
+    if (string.indexOf(substring) > -1) {
+        console.log("Script Error: See Browser Console for Detail");
+        var nVer = navigator.appVersion;
+        var nAgt = navigator.userAgent;
+        var browserName = navigator.appName;
+        var fullVersion = "" + parseFloat(navigator.appVersion);
+        var majorVersion = parseInt(navigator.appVersion, 10);
+        var device = "desktop";
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            device = "mobile";
+        }
+        message = ["Version: " + nVer, "UserAgent: " + nAgt, "BrowserName: " + browserName,
+            "FullVersion: " + fullVersion, "MajorVersion: " + majorVersion, "Device: " + device
+        ].join(" - ");
+    } else {
+        message = ["Message: " + msg, "URL: " + url, "Line: " + lineNo, "Column: " + columnNo,
+            "Error object: " + JSON.stringify(error)
+        ].join(" - ");
+    }
+    saveLog(window.location.href + " " + message);
+};
 // API get IP of contact
 // var ipAPI = "103.56.158.22:9090/api/visitor/ip";
 // API save file upload (file CV)
 
 var save_contact_url = "./helios/helios_save.php";
+//var save_contact_url = "http://topicanative.asia/helios/helios_save.php";
 
 var olm_referer = document.referrer;
 var olm_data = {};
@@ -11,79 +48,7 @@ var olm_ip = "";
 $(document).ready(function () {
     //console.log("visitor");
     olmxSendVisitor();
-
-    //Ajax for submit form to save C3
-    $(document).on("submit", ".e_form_submit", function (e) {
-        //console.log('submit');
-        e.preventDefault();
-        $(this).find('.btn-submit').attr('disabled', 'disabled');
-        var fullname = $(this).find('input[name=name]').val() ? $(this).find('input[name=name]').val() : $('#fullname').val();
-        var email = $(this).find('input[name=email]').val() ? $(this).find('input[name=email]').val() : $('#email').val();
-        var phone = $(this).find('input[name=phone]').val() ? $(this).find('input[name=phone]').val() : $('#phone').val();
-        var age = $(this).find('select[name=age]').val() ? $(this).find('select[name=age]').val() : $('#age').val();
-        if (undefined === fullname || fullname === "") {
-            alert("จำเป็นต้องใส่ชื่อ");
-            $('#fullname').focus();
-            $(this).find('.btn-submit').removeAttr('disabled');
-            return false;
-        }
-        if (undefined === phone || phone === "") {
-            alert("จำเป็นต้องใส่หมายเลขโทรศัพท์");
-            $('#phone').focus();
-            $(this).find('.btn-submit').removeAttr('disabled');
-            return false;
-        }
-        var dodaisdt = phone.length;
-        if (d = phone.match(/^0/i)) {
-            if (dodaisdt !== 10) {
-                alert("เหมายเลขของคุณไม่ถูกต้อง หมายเลขของคุณต้องเริ่มต้นด้วยหมายเลย 0");
-                $('#phone').focus();
-                $(this).find('.btn-submit').removeAttr('disabled');
-                return false;
-            }
-        } else {
-            alert("หมายเลขของคุณไม่ถูกต้อง หมายเลขของคุณต้องเริ่มต้นด้วยหมายเลย 0");
-            $('#phone').focus();
-            $(this).find('.btn-submit').removeAttr('disabled');
-            return false;
-        }
-        if (undefined === email || email === "" || email === "email_address@gmail.com") {
-            alert("กรุณากรอกอีเมล์ของคุณ");
-            $('#email').focus();
-            $(this).find('.btn-submit').removeAttr('disabled');
-            return false;
-        }
-        var aCong = email.indexOf("@");
-        var dauCham = email.lastIndexOf(".");
-        if ((aCong < 1) || (dauCham < aCong + 2) || (dauCham + 2 > email.length)) {
-            alert("อีเมล์ อย่างเช่น :email@example.com");
-            $('#email').focus();
-            $(this).find('.btn-submit').removeAttr('disabled');
-            return false;
-        }
-        if (undefined === age || age === "0") {
-            alert("กรุณาใส่วันเกิด")
-            $(this).find('.btn-submit').removeAttr('disabled');
-            return false;
-        }
-
-        // helios system send c3
-        olmxSendContact(this);
-
-    });
-
 });
-
-function saveLog(msg, fname) {
-    $.ajax({
-        method: "POST",
-        crossDomain: true,
-        url: save_contact_url,
-        data: {
-            action: "savelog", fileName: fname, data: msg
-        }
-    });
-}
 
 var olmxBrowserInfo = function () {
     var nVer = navigator.appVersion;
@@ -175,7 +140,7 @@ var olmxLandingPage = function () {
 function olmxSearchParams() {
     var search = location.search.substring(1);
 
-    if(!search) return false;
+    if (!search) return false;
 
     var params = search.split(/&/g);
     params = params.filter(Boolean);
@@ -187,8 +152,8 @@ function olmxSearchParams() {
     }
 
     var paramsURLString = params.join("&");
-    var paramsFromURL = JSON.parse('{"' + paramsURLString.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) {
-        return key==="" ? value : decodeURIComponent(value);
+    var paramsFromURL = JSON.parse('{"' + paramsURLString.replace(/&/g, '","').replace(/=/g, '":"') + '"}', function (key, value) {
+        return key === "" ? value : decodeURIComponent(value);
     });
     return paramsFromURL;
 }
@@ -270,9 +235,8 @@ function olmxSendVisitor() {
             //jsonp: false,
             //jsonpCallback: "save_data",
             url: save_contact_url,
-            data: {action: "visitor", data: JSON.stringify(session_data)}
+            data: { action: "visitor", data: JSON.stringify(session_data) }
         }).success(function (response) {
-            // console.log("success ");
             var result = response;
             if (result.code === 200) {
                 if (result.data.visitor_code !== undefined && result.data.visitor_code.length > 0) {
@@ -282,8 +246,6 @@ function olmxSendVisitor() {
                     olmxSetCookie("olmx_session_code", result.data.session_code);
                 }
             }
-        }).error( function(response) {
-            // console.log("err ", response);
         });
 
     }, 200);
@@ -312,7 +274,7 @@ function olmxGetCookie(cname) {
     return "";
 }
 
-function olmxSendContact(form) {
+function olmxSendContact(form, callback) {
     // console.log("submitter");
     // start save contact
     saveLog(window.location.hostname + " AJAX starting...", "contact_log.txt");
@@ -382,32 +344,115 @@ function olmxSendContact(form) {
         $.ajax({
             method: "POST",
             dataType: "json",
-            //async: false,
+            timeout: 2000,
             crossDomain: true,
-            //jsonp: false,
-            //jsonpCallback: "save_data",
             url: save_contact_url,
-            data: {action: "contact", data: JSON.stringify(ajax_data)}
+            data: { action: "contact", data: JSON.stringify(ajax_data) }
         }).success(function (response) {
             saveLog(window.location.hostname + " AJAX success...", "contact_log.txt");
-            //if (ajax_data.age < "18" ||
-            if(response.code !== 200 || response.url === null) {
+            if (response.code !== 200 || response.url === null) {
                 saveLog(window.location.hostname + " AJAX failed ... "
                     + JSON.stringify(ajax_data) + " "
                     + JSON.stringify(response), "contact_log.txt");
-                // console.log("Failed !");
-                // location.href = "http://bestenglish.topicanative.co.th/helios";
-                location.href = "thank-you.php";
-            } else {
-                // console.log("Thanks !");
-                // location.href = response.url;
-                location.href = "thank-you.php";
             }
-        }).error( function(response) {
+            callback();
+        }).error(function (response) {
             saveLog(window.location.hostname + " AJAX error...", "contact_log.txt");
-            // console.log("Error !", response);
-            // location.href = "http://bestenglish.topicanative.co.th/helios";
-            location.href = "thank-you.php";
+            // alert("Error !");
+            callback();
         });
     }
 }
+
+function validateForm(formEl) {
+    $(formEl).prop('disabled', true);
+    var nameEl = $(formEl).find('input[name=name]');
+    var emailEl = $(formEl).find('input[name=email]');
+    var ageEl = $(formEl).find('select[name=age]');
+    var phoneEl = $(formEl).find('input[name=phone]');
+
+    var fullname = $(nameEl).val();
+    var email = $(emailEl).val();
+    var aCong = email.indexOf("@");
+    var dauCham = email.lastIndexOf(".");
+    var phone = $(phoneEl).val();
+    var age = $(ageEl).val();
+    var dodaisdt = phone.length;
+    if (fullname == "") {
+        alert("จำเป็นต้องใส่ชื่อ");
+        $(nameEl).focus();
+        $(formEl).removeAttr('disabled');
+        return false;
+    }
+    if (phone == "") {
+        alert("จำเป็นต้องใส่หมายเลขโทรศัพท์");
+        $(phoneEl).focus();
+        $(formEl).removeAttr('disabled');
+        return false;
+    }
+    if (d = phone.match(/^0/i)) {
+        if (dodaisdt != 10) {
+            alert("เหมายเลขของคุณไม่ถูกต้อง หมายเลขของคุณต้องเริ่มต้นด้วยหมายเลย 0");
+            $(phoneEl).focus();
+            $(formEl).removeAttr('disabled');
+            return false;
+        }
+    } else {
+        alert("หมายเลขของคุณไม่ถูกต้อง หมายเลขของคุณต้องเริ่มต้นด้วยหมายเลย 0");
+        $(phoneEl).focus();
+        $(formEl).removeAttr('disabled');
+        return false;
+    }
+    if ((email == "") || (email == "email_address@gmail.com")) {
+        alert("กรุณากรอกอีเมล์ของคุณ");
+        $(emailEl).focus();
+        $(formEl).removeAttr('disabled');
+        return false;
+    }
+    if ((aCong < 1) || (dauCham < aCong + 2) || (dauCham + 2 > email.length)) {
+        alert("อีเมล์ อย่างเช่น :email@example.com");
+        $(emailEl).focus();
+        $(formEl).removeAttr('disabled');
+        return false;
+    }
+    if (age == null || age == "0") {
+        alert("กรุณาใส่วันเกิด")
+        $(formEl).removeAttr('disabled');
+        return false;
+    }
+
+    return true;
+}
+
+function registerFormClick(ifrm) {
+    var btn;
+    var isSubmitted = false;
+    btn = $(ifrm.document).find('input[type=submit]');
+    //btn.unbind('click');
+    btn.on('click', function (e) {
+        e.preventDefault();
+        var formEl = $(ifrm.document).find('.hs-form')[0];
+
+        if (!validateForm(formEl))
+            return;
+
+        if (isSubmitted) {
+            return;
+        }
+
+        olmxSendContact(formEl, function() {
+            formEl.submit();
+            isSubmitted = true;
+        });
+    });
+}
+function detectAndRegisterFormClick() {
+    var ifrm = $('.hs-form-iframe')[0];
+    if (!ifrm) {
+        setTimeout(detectAndRegisterFormClick, 500);
+        return;
+    }
+    ifrm = ifrm.contentWindow || ifrm.contentDocument.document || ifrm.contentDocument;
+    registerFormClick(ifrm);
+}
+setTimeout(detectAndRegisterFormClick, 500);

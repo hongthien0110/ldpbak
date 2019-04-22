@@ -64,55 +64,16 @@
             <!--form.......................-->
 
             <div id="form2">
-                 <form class="e_submit e_form_submit form-horizontal" method="POST" action="">
-                    <div class="form-group" >
-                        <div class="full-width " style="border: 1px solid #fff">
-                            <input type="text" class="form-control" name="name"  placeholder="Name" id="form_t3">
-                        </div>
-                    </div>
-                    <div class="form-group  ">
-                        <div class="full-width " style="border: 1px solid #fff">
-                            <input type="text" class="form-control" name="phone" placeholder="Phone" id="form_t4">
-                        </div>
-                    </div>
-                    <div class="form-group  ">
-                        <div class="full-width" style="border: 1px solid #fff">
-                            <input type="text" class="form-control" name="email" placeholder="Email" id="form_t5">
-                        </div>
-                    </div>
-<!--                    <div class="form-group  ">-->
-<!--                        <div class="full-width "> -->
-<!--                            <input type="text" class="form-control" name="line_id" placeholder="Line ID (Optional)">-->
-<!--                        </div>-->
-<!--                    </div>-->
-                  
-                    <!-- <div class="form-group  ">
-                        <div class="full-width " style="border: 1px solid #fff">
-                            <input type="text" class="form-control" name="age" placeholder="Age">
-                        </div>
-                    </div> -->
-                   <!--  test form age -->
-                    <div class="form-group">
-                        <select class="form-control" id="age" name="age"  style="color: black !important">
-                            <option value="0" id="form_t6">--- กรุณาเลือกช่วงอายุ ---</option>
-                            <option value="17" id="form_t7">ต่ำกว่า 18 ปี</option>
-                            <option value="20" id="form_t8">18 - 22 ปี</option>
-                            <option value="31" id="form_t9">มากกว่า 22 ปี</option>
-                        </select>
-                    </div>
-                    <?php
-                    echo "<input type='hidden' class='e_domain_ref' name='http_referer' value=" . $ref . ">";
-                    echo "<input type='hidden' name='domain' value=" . $domain . ">";
-                    echo "<input type='hidden' name='id_camp_landingpage' value=" . $id . ">";
-                    echo "<input type='hidden' name='preview' value=" . $preview . ">";
-                    echo "<input type='hidden' name='code_chanel' value=" . $code_chanel . ">";
-                    ?>
-                    <div class="form-group "> 
-                        <div class="">
-                            <button type="submit" class="btn-form btn-default-form short e_btn_submit" id="form_t10">SUBMIT</button>
-                        </div>
-                    </div>
-                </form>
+                <!--[if lte IE 8]>
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                <![endif]-->
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                <script>
+                    hbspt.forms.create({
+                        portalId: "4821221",
+                        formId: "b63b329d-df63-4f3d-8d31-7e5e8641ba70"
+                    });
+                </script>
             </div>  
         </div>
     </div>
